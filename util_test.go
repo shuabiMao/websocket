@@ -36,7 +36,7 @@ var tokenListContainsValueTests = []struct {
 	{"WebSocket", true},
 	{"WEBSOCKET", true},
 	{"websocket", true},
-	{"websockets", false},
+	{"websockets2", false},
 	{"x websocket", false},
 	{"websocket x", false},
 	{"other,websocket,more", true},
